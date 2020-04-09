@@ -1,18 +1,95 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#ff5c33"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
     tools:context=".MainActivity">
+    <Button
+        android:id="@+id/button_register"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:background="#ffcccc"
+        android:layout_gravity="right"
+        android:text="@string/login" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="180dp"
+        android:layout_marginTop="60dp"
+        android:src="@drawable/Logo"/>
 
-    <TextView
+    <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:layout_marginTop="50dp"
+        android:orientation="horizontal">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="#ffcccc"
+        android:drawableTop="@android:drawable/ic_dialog_email"
+        android:paddingTop="20dp"
+        android:text="Menu"
+        android:textColor="#ff5c33" />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="10dp"
+        android:background="#ffcccc"
+        android:drawableTop="@android:drawable/ic_dialog_map"
+        android:paddingTop="20dp"
+        android:text="Profile"
+        android:textColor="#ff5c33" />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="10dp"
+        android:background="#ffcccc"
+        android:drawableTop="@android:drawable/ic_dialog_info"
+        android:paddingTop="20dp"
+        android:text="Gallery"
+        android:textColor="#ff5c33" />
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="#ffcccc"
+            android:drawableTop="@android:drawable/ic_dialog_email"
+            android:paddingTop="20dp"
+            android:text="Order"
+            android:textColor="#ff5c33" />
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="10dp"
+            android:background="#ffcccc"
+            android:drawableTop="@android:drawable/ic_dialog_map"
+            android:paddingTop="20dp"
+            android:text="About US"
+            android:textColor="#ff5c33" />
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="10dp"
+            android:background="#ffcccc"
+            android:paddingTop="52dp"
+            android:text=""
+            android:textColor="#ff5c33" />
+    </LinearLayout>
+</LinearLayout>

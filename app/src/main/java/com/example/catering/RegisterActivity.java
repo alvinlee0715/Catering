@@ -10,7 +10,7 @@ public class RegisterActivity extends AppCompatActivity {
     EditText mTextPassword;
     EditText mTextCnfPassword;
     Button mButtonRegister;
-    TextView mTextViewLogin;
+
 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -20,8 +20,8 @@ public class RegisterActivity extends AppCompatActivity {
         mTextPassword = (EditText)findViewById(R.id.editText_password);
         mTextCnfPassword = (EditText) findViewById(R.id.editText_cnf_password);
         mButtonRegister = (Button) findViewById(R.id.button_register);
-        mTextViewLogin = ()
-        mTextViewLogin
+
+
 
 
 
