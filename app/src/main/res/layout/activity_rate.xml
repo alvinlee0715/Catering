@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ff5c33"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:text="Rate US"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="Please share your experience with us"
+        android:textSize="20sp"/>
+
+    <RatingBar
+        android:id="@+id/ratingBar"
+        android:layout_marginTop="50dp"
+        android:numStars="5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="50dp"
+        android:gravity="center_horizontal"
+        android:hint="Feedback"
+        android:inputType="textMultiLine" />
+
+    <Button
+        android:id="@+id/button_changeAvatar"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:background="#ffcccc"
+        android:text="submit" />
+
+</LinearLayout>
