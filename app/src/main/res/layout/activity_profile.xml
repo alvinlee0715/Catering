@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="#ff5c33"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+
+    <Button
+        android:id="@+id/button_profile"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:background="#ffcccc"
+        android:layout_gravity="right"
+        android:text="@string/edit_profile" />
+    <Button
+        android:id="@+id/button_changePassword"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:background="#ffcccc"
+        android:layout_gravity="right"
+        android:text="@string/change_password" />
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="20dp"
+        android:layout_gravity="left"
+        android:src="@drawable/logo"/>
+    <Button
+        android:id="@+id/button_changeAvatar"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="20dp"
+        android:background="#ffcccc"
+        android:layout_gravity="left"
+        android:text="@string/change_avatar" />
+
+    <EditText
+        android:id="@+id/editText_username"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="100dp"
+        android:background="#ffffff"
+        android:drawableLeft="@drawable/user"
+        android:hint="@string/username"/>
+
+    <EditText
+        android:id="@+id/editText_contactNumber"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:background="#ffffff"
+        android:drawableLeft="@drawable/contact"
+        android:hint="@string/contact_number" />
+    <EditText
+        android:id="@+id/editText_email"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:background="#ffffff"
+        android:drawableLeft="@drawable/mail"
+        android:hint="@string/email" />
+    <Button
+        android:id="@+id/button_orderHistory"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:background="#ffcccc"
+        android:text="@string/order_history"/>
+
+    <Button
+        android:id="@+id/button_logout"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:background="#ffcccc"
+        android:text="@string/logout" />
+
+    </LinearLayout>
