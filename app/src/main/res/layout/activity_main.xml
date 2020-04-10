@@ -21,7 +21,7 @@
         android:layout_width="wrap_content"
         android:layout_height="180dp"
         android:layout_marginTop="60dp"
-        android:src="@drawable/Logo"/>
+        android:src="@drawable/logo"/>
 
     <LinearLayout
         android:layout_width="wrap_content"
@@ -33,7 +33,7 @@
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:background="#ffcccc"
-        android:drawableTop="@android:drawable/ic_dialog_email"
+        android:drawableTop="@drawable/menu"
         android:paddingTop="20dp"
         android:text="Menu"
         android:textColor="#ff5c33" />
@@ -43,7 +43,7 @@
         android:layout_height="100dp"
         android:layout_marginLeft="10dp"
         android:background="#ffcccc"
-        android:drawableTop="@android:drawable/ic_dialog_map"
+        android:drawableTop="@drawable/profile"
         android:paddingTop="20dp"
         android:text="Profile"
         android:textColor="#ff5c33" />
@@ -53,7 +53,7 @@
         android:layout_height="100dp"
         android:layout_marginLeft="10dp"
         android:background="#ffcccc"
-        android:drawableTop="@android:drawable/ic_dialog_info"
+        android:drawableTop="@drawable/gallery"
         android:paddingTop="20dp"
         android:text="Gallery"
         android:textColor="#ff5c33" />
@@ -68,7 +68,7 @@
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:background="#ffcccc"
-            android:drawableTop="@android:drawable/ic_dialog_email"
+            android:drawableTop="@drawable/order"
             android:paddingTop="20dp"
             android:text="Order"
             android:textColor="#ff5c33" />
@@ -78,7 +78,7 @@
             android:layout_height="100dp"
             android:layout_marginLeft="10dp"
             android:background="#ffcccc"
-            android:drawableTop="@android:drawable/ic_dialog_map"
+            android:drawableTop="@drawable/about"
             android:paddingTop="20dp"
             android:text="About US"
             android:textColor="#ff5c33" />
@@ -88,7 +88,7 @@
             android:layout_height="100dp"
             android:layout_marginLeft="10dp"
             android:background="#ffcccc"
-            android:paddingTop="52dp"
+            android:paddingTop="68dp"
             android:text=""
             android:textColor="#ff5c33" />
     </LinearLayout>
