@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ff5c33"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginTop="50dp"
+        android:text="Our Service"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginTop="5dp"
+        android:text="Decoration"
+        android:textSize="26sp"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:text="Self our party scene with our delightful decoration."
+        android:textSize="20sp"
+        android:layout_marginBottom="10dp"
+        android:textStyle="normal" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginTop="5dp"
+        android:text="Event Planning"
+        android:textSize="26sp"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:justificationMode="inter_word"
+        android:text="Event coordination play everything from weeding to large expos and trade shows. Event coordinators control an event from conception to clear up."
+        android:textSize="20sp"
+        android:layout_marginBottom="10dp"
+        android:textStyle="normal" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginTop="5dp"
+        android:text="Florist"
+        android:textSize="26sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:justificationMode="inter_word"
+        android:text="Plan arrangement according  to client requirement, utilizing knowledge of design and properties of materials and select appropriate standard design pattern."
+        android:textSize="20sp"
+        android:layout_marginBottom="10dp"
+        android:textStyle="normal" />
+
+    <Button
+        android:id="@+id/button_changeAvatar"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:background="#ffcccc"
+        android:layout_gravity="left"
+        android:layout_marginTop="40dp"
+        android:drawableRight="@drawable/arrow"
+        android:text="Learn more" />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="#ff5c33"
+        android:drawableTop="@drawable/contact"
+        android:layout_gravity="right"
+        android:paddingTop="20dp"
+        android:text="Menu"
+        android:textColor="#000000" />
+</LinearLayout>
