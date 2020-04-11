@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ff5c33"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginTop="50dp"
+        android:text="Enter Order Detail"
+        android:textSize="30sp"
+        android:layout_marginBottom="10dp"
+        android:textStyle="bold" />
+
+    <LinearLayout android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="60dp"
+            android:background="#ffffff"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="10dp"
+            android:hint="Name"
+            android:layout_weight="1"/>
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="60dp"
+            android:background="#ffffff"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="20dp"
+            android:hint="Email"
+            android:layout_weight="1"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="60dp"
+            android:background="#ffffff"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="10dp"
+            android:hint="Phone"
+            android:layout_weight="1"/>
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="60dp"
+            android:background="#ffffff"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="20dp"
+            android:hint="Number Of People"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="60dp"
+            android:background="#ffffff"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="10dp"
+            android:hint="Date"
+            android:layout_weight="1"/>
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="60dp"
+            android:background="#ffffff"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="20dp"
+            android:hint="Time"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginTop="20dp"
+        android:text="Order Detail"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button_register"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:background="#ffcccc"
+        android:text="Confirm Order" />
+
+
+
+
+</LinearLayout>
