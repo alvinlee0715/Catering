@@ -4,14 +4,27 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#ff5c33"
+    android:background="#ffffff"
     android:orientation="vertical"
     android:gravity="center_horizontal">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginTop="50dp"
+        android:text="BBQ Buffet"
+        android:textSize="30sp"
+        android:textStyle="bold" />
 
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="180dp"
+        android:layout_marginBottom="20dp"
+        android:src="@drawable/BBQ"/>
     <RadioGroup
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:layout_marginTop="200dp"
+        android:layout_marginTop="0dp"
         android:gravity="center"
         android:orientation="horizontal">
     <TextView
@@ -69,6 +82,15 @@
             android:text="D"
             android:textColor="#000000" />
     </RadioGroup>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginTop="20dp"
+        android:text="Desciption"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
     <Button
         android:id="@+id/button_register"
         android:layout_width="200dp"
@@ -76,6 +98,8 @@
         android:layout_marginTop="20dp"
         android:background="#ffcccc"
         android:text="add to order" />
+
+
 
 
 
